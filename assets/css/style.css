@@ -87,6 +87,7 @@ main {
     background-color: yellow;
     /* Make main element take up any excess space to keep the footer down*/
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /* Footer */
