@@ -27,6 +27,9 @@ h3 {
     color: #252525;
 }
 
+.hidden-headings {
+    display: none;
+}
 
 /* Header */
 header {
