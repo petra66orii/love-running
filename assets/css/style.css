@@ -231,7 +231,7 @@ main {
     padding: 30px;
 }
 
-#signup h2 {
+#signup-form > h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
@@ -249,7 +249,7 @@ main {
 
 .radio-buttons {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 100%;
 
 }
@@ -351,12 +351,38 @@ main {
     #photos {
         column-count: 3;
     }
+
+    /* Sign-up form */
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
+    }
+
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
+    }
 }
 
 /*Media query: small laptops and larger (992px and up)*/
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+
+    #photos {
+        column-count: 4;
     }
 }
 
@@ -387,7 +413,4 @@ main {
         align-self: flex-end;
     }
 
-    #photos {
-        column-count: 4;
-    }
 }
