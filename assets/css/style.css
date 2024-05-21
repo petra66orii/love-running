@@ -219,10 +219,10 @@ main {
 
 #signup {
     background-image: url('../images/signup-image.webp');
-    background-position: 75%;
     background-size: cover;
-    flex-grow: 1;
+    background-position: 75%;
     padding: 20px 10% 0 10%;
+    flex-grow: 1;
 }
 
 #signup-form {
@@ -231,7 +231,7 @@ main {
     padding: 30px;
 }
 
-#signup-form > h2 {
+#signup-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
@@ -393,7 +393,7 @@ main {
         flex-direction: row;
     }
 
-    #benefits > div {
+    #benefits>div {
         flex: 1;
     }
 
@@ -405,11 +405,11 @@ main {
         order: 1;
     }
 
-    #benefits-mental > div {
+    #benefits-mental>div {
         align-self: flex-start;
     }
 
-    #benefits-physical > div {
+    #benefits-physical>div {
         align-self: flex-end;
     }
 
